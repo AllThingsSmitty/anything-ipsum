@@ -1,0 +1,23 @@
+{
+  "name": "anything-ipsum",
+  "description": "A lorem ipsum-style generator",
+  "version": "0.0.1",
+  "homepage": "https://github.com/allthingssmitty/anything-ipsum",
+  "author": "Matt Smith <matt@allthingssmitty.com> (http://allthingssmitty.com)",
+  "maintainers": [
+    "Matt Smith <matt@allthingssmitty.com> (http://allthingssmitty.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllThingsSmitty/anything-ipsum.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllThingsSmitty/anything-ipsum/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "lorem ipsum",
+    "text",
+    "javascript"
+  ]
+}
