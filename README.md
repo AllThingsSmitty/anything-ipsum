@@ -1,6 +1,19 @@
 # Anything Ipsum
 A lorem ipsum-style generator. Just add text.
 
+[![NPM version](https://img.shields.io/npm/v/anything-ipsum.svg?)](https://www.npmjs.com/package/anything-ipsum)
+
+
+## Getting Started
+
+You may install this plugin with this command:
+
+```shell
+npm install anything-ipsum --save-dev
+```
+
+**Issues with the output should be reported on the `anything-ipsum` [issue tracker](https://github.com/allthingssmitty/anything-ipsum/issues).**
+
 
 ## Usage
 
