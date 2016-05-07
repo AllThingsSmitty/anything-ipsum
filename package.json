@@ -1,7 +1,7 @@
 {
   "name": "anything-ipsum",
   "description": "A lorem ipsum-style generator. Just add text.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/allthingssmitty/anything-ipsum",
   "author": "Matt Smith <matt@allthingssmitty.com> (http://allthingssmitty.com)",
   "maintainers": [
