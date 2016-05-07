@@ -1,6 +1,6 @@
 {
   "name": "anything-ipsum",
-  "description": "A lorem ipsum-style generator",
+  "description": "A lorem ipsum-style generator. Just add text.",
   "version": "0.0.1",
   "homepage": "https://github.com/allthingssmitty/anything-ipsum",
   "author": "Matt Smith <matt@allthingssmitty.com> (http://allthingssmitty.com)",
@@ -19,5 +19,9 @@
     "lorem ipsum",
     "text",
     "javascript"
+  ],
+  "files": [
+    "js",
+    "LICENSE"
   ]
 }
