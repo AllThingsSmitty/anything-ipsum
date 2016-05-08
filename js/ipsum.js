@@ -1,4 +1,5 @@
 function loadJSON(path, success, error) {
+  'use strict';
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function () {
     if (xhr.readyState === XMLHttpRequest.DONE) {
@@ -18,6 +19,7 @@ function loadJSON(path, success, error) {
 }
 
 function generateIpsum(e) {
+  'use strict';
   loadJSON('data.json',
      function (data) { console.log(data); },
      function (xhr) { console.error(xhr); }
@@ -26,10 +28,11 @@ function generateIpsum(e) {
   var minCount = 5,
     maxCount = 11,
     ipsum = Math.floor(Math.random() * (maxCount - minCount)) + minCount,
+    newIpsum,
     ret = '';
   
   for (i = 0; i < ipsum; i++) {
-    var newIpsum = quotes[Math.floor(Math.random() * (quotes.length - 1))];
+    newIpsum = quotes[Math.floor(Math.random() * (quotes.length - 1))];
     if (ret.substring(ret.length - 1, ret.length) === "." || ret.substring(ret.length - 1, ret.length) === "?") {
       newIpsum = newIpsum.substring(0, 1).toUpperCase() + newIpsum.substring(1, newIpsum.length);
     }
