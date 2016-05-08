@@ -21,9 +21,9 @@ You can add any kind of text to this plugin. Open the `data.json` file and repla
 
 ```javascript
 var quotes = [
-  'lorem ipsum dolor sit amet,',
-  'consectetur adipiscing elit.',
-  'integer condimentum'  
+  'Curse your sudden but inevitable betrayal!',
+  'Yes sir, Captain Tightpants!',
+  'Someone ever tries to kill you, you try to kill \'em right back!'
 ];
 ```
 
