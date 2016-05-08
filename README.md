@@ -17,13 +17,14 @@ npm install anything-ipsum --save-dev
 
 ## Usage
 
-You can add any kind of text to this plugin. Open the `data.json` file and replace the text in the `quotes` array:
+You can add any kind of text to this plugin. Open the `data.json` file and replace the text in the `quotes` array (the more text you add, the more random the output will be):
 
 ```javascript
 var quotes = [
   'Curse your sudden but inevitable betrayal!',
+  'If anyone gets nosy, just...y\'know...shoot \'em.',
   'Yes sir, Captain Tightpants!',
-  'Someone ever tries to kill you, you try to kill \'em right back!'
+  'Also? I can kill you with my brain.'
 ];
 ```
 
