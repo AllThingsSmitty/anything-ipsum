@@ -1,5 +1,4 @@
 function loadJSON(path, success, error) {
-  'use strict';
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function () {
     if (xhr.readyState === XMLHttpRequest.DONE) {
@@ -14,12 +13,11 @@ function loadJSON(path, success, error) {
       }
     }
   };
-  xhr.open("GET", path, true);
+  xhr.open('GET', path, true);
   xhr.send();
 }
 
 function generateIpsum(e) {
-  'use strict';
   loadJSON('data.json',
      function (data) { console.log(data); },
      function (xhr) { console.error(xhr); }
